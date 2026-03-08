@@ -1,51 +1,14 @@
-body{
-font-family:Arial;
-background:#f4f6f9;
-text-align:center;
-}
-
-input{
-padding:10px;
-margin:5px;
-}
-
-button{
-padding:10px 15px;
-background:#007BFF;
+body.dark {
+background:#1e1e1e;
 color:white;
-border:none;
-cursor:pointer;
 }
 
-li{
-list-style:none;
-margin:10px;
-background:white;
-padding:10px;
-border-radius:5px;
+body.dark li{
+background:#2e2e2e;
 }
 
-.delete{
-background:red;
-margin-left:10px;
-}
-
-.complete{
-background:green;
-margin-left:10px;
-}
-
-.progress-bar{
-width:60%;
-height:20px;
-background:#ddd;
-margin:auto;
-border-radius:10px;
-}
-
-#progress{
-height:100%;
-width:0%;
-background:green;
-border-radius:10px;
+body.dark input{
+background:#333;
+color:white;
+border:1px solid #555;
 }

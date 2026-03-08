@@ -45,30 +45,8 @@ displayTasks();
 document.getElementById("taskInput").value="";
 }
 
-function deleteTask(index){
+function toggleTheme(){
 
-tasks.splice(index,1);
-displayTasks();
-
-}
-
-function completeTask(index){
-
-tasks[index].done=true;
-displayTasks();
+document.body.classList.toggle("dark");
 
 }
-
-function updateProgress(completed){
-
-let percent=0;
-
-if(tasks.length>0){
-percent=(completed/tasks.length)*100;
-}
-
-document.getElementById("progress").style.width=percent+"%";
-
-}
-
-displayTasks();
